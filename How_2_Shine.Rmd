@@ -10,10 +10,6 @@ output:
       highlightStyle: atelier-lakeside-light
       highlightLines: true
       countIncrementalSlides: false
-      background-image: SisterAnalyst_logo.png.png
-      background-position: top right
-      background-size: 110px 120px
-      layout: true
 ---
 
 class: inverse, center, middle
@@ -120,7 +116,7 @@ knitr::include_graphics("images/Shiny5.png")
 knitr::include_graphics("images/Shiny5.1.png")
 ```
 ###Create an input with an input function
-```{r, out.width = "700px", echo=FALSE, fig.align = 'center'}
+```{r, out.width = "550px", echo=FALSE, fig.align = 'center'}
 knitr::include_graphics("images/Shiny5.2.png")
 ```
 ---
@@ -135,7 +131,7 @@ knitr::include_graphics("images/Shiny5.3.1.png")
 
 .pull-right[
 **app**
-```{r, out.width = "900px", echo=FALSE, fig.align = 'center'}
+```{r, out.width = "700px", echo=FALSE, fig.align = 'center'}
 knitr::include_graphics("images/Shiny5.3.2.png")
 ```
 ]
