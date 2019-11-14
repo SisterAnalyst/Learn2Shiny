@@ -57,10 +57,10 @@ knitr::include_graphics("images/install_shiny.png")
 ---
 ## Download the workshop material
 
-To download workshop's material please go to: <https://github.com/SisterAnalyst/LearnShiny> 
+To download workshop's material please go to: <https://github.com/SisterAnalyst/Learn2Shiny> 
 
-```{r, out.width = "300px", echo=FALSE, fig.align = 'center'}
-knitr::include_graphics("images/new_RProj.png")
+```{r, out.width = "700px", echo=FALSE, fig.align = 'center'}
+knitr::include_graphics("images/GitHub_Shiny_Material.png")
 ```
 ---
 ## Start a new Shiny projecy
