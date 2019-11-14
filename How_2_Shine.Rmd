@@ -1,7 +1,8 @@
 ---
 title: "How to Shiny? 🤩"
 subtitle: "Sister Analyst"
-author: "Tatjana, Katica, Jovana i Tijana"
+author: "Tatjana, Katica, Jovana & Tijana"
+date: "November 2019"
 output:
   xaringan::moon_reader:
     css: ["default", "css/ohsu.css", "css/ohsu-fonts.css"]
@@ -17,6 +18,7 @@ class: inverse, center, middle
 #Get Started 🤫😴
 
 <img src=https://media.giphy.com/media/mMSE6MfkXzLLa/giphy.gif align="middle" img width="90%">
+
 ---
 ## What is Shiny App?
 
@@ -46,7 +48,7 @@ If you haven't you should download and install:
 
 Open RStudio and install the `Shiny` package by executing the following comand in the R console pane:
 
-`install.packages("shiny", repos = "http://cran.us.r-project.org")`
+`install.packages("shiny")`
 
 
 or by going to `Tools | Install Packages...` and asking for `shiny`
@@ -69,7 +71,7 @@ Select `File | New Project...` from the main menue.
 
 From dialog window click on `New Directory | Shiny Web Application` to `Create New Project`. 
 
-```{r, out.width = "450px", echo=FALSE, fig.align = 'center'}
+```{r, out.width = "350px", echo=FALSE, fig.align = 'center'}
 knitr::include_graphics("images/Shiny_Example1.png")
 ```
 
@@ -124,14 +126,14 @@ knitr::include_graphics("images/Shiny5.2.png")
 ###Create an input with an input function
 .pull-left[
 **code**
-```{r, out.width = "700px", echo=FALSE, fig.align = 'center'}
+```{r, out.width = "600px", echo=FALSE, fig.align = 'center'}
 knitr::include_graphics("images/Shiny5.3.1.png")
 ```
 ]
 
 .pull-right[
 **app**
-```{r, out.width = "700px", echo=FALSE, fig.align = 'center'}
+```{r, out.width = "600px", echo=FALSE, fig.align = 'center'}
 knitr::include_graphics("images/Shiny5.3.2.png")
 ```
 ]
@@ -144,7 +146,7 @@ knitr::include_graphics("images/Shiny6.png")
 ---
 
 ##Syntax
-```{r, out.width = "1000px", echo=FALSE, fig.align = 'center'}
+```{r, out.width = "800px", echo=FALSE, fig.align = 'center'}
 knitr::include_graphics("images/Shiny7.png")
 ```
 
@@ -152,7 +154,7 @@ knitr::include_graphics("images/Shiny7.png")
 ---
 
 ##Output Objects
-```{r, out.width = "1000px", echo=FALSE, fig.align = 'center'}
+```{r, out.width = "800px", echo=FALSE, fig.align = 'center'}
 knitr::include_graphics("images/Shiny8.png")
 ```
 ---
