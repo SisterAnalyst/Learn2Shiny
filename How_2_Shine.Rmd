@@ -28,8 +28,11 @@ You can host standalone apps on a webpage or embed them in [R Markdown](https://
 
 Shiny combines the computational power of R with the interactivity of the modern web. 💪
 
-Shiny apps are easy to write. No web development skills are required. 😅 
+Shiny apps are easy to write. No web development skills are required. 😅
+
 ---
+class: inverse, center, middle
+
 #Let's Shiny with R 
 ## 🌞😎🤩
 
@@ -42,7 +45,6 @@ If you haven't you should download and install:
 1) R from <https://cran.r-project.org> and then
 
 2) [RStudio](https://rstudio.com/products/rstudio/download/)
-
 ---
 ## Start building your 1st Shiny App
 
@@ -56,6 +58,7 @@ or by going to `Tools | Install Packages...` and asking for `shiny`
 ```{r, out.width = "300px", echo=FALSE, fig.align = 'center'}
 knitr::include_graphics("images/install_shiny.png")
 ```
+
 ---
 ## Download the workshop material
 
@@ -64,6 +67,7 @@ To download workshop's material please go to: <https://github.com/SisterAnalyst/
 ```{r, out.width = "700px", echo=FALSE, fig.align = 'center'}
 knitr::include_graphics("images/GitHub_Shiny_Material.png")
 ```
+
 ---
 ## Start a new Shiny projecy
 
@@ -118,7 +122,7 @@ knitr::include_graphics("images/Shiny5.png")
 knitr::include_graphics("images/Shiny5.1.png")
 ```
 ###Create an input with an input function
-```{r, out.width = "550px", echo=FALSE, fig.align = 'center'}
+```{r, out.width = "700px", echo=FALSE, fig.align = 'center'}
 knitr::include_graphics("images/Shiny5.2.png")
 ```
 ---
@@ -126,14 +130,14 @@ knitr::include_graphics("images/Shiny5.2.png")
 ###Create an input with an input function
 .pull-left[
 **code**
-```{r, out.width = "600px", echo=FALSE, fig.align = 'center'}
+```{r, out.width = "700px", echo=FALSE, fig.align = 'center'}
 knitr::include_graphics("images/Shiny5.3.1.png")
 ```
 ]
 
 .pull-right[
 **app**
-```{r, out.width = "600px", echo=FALSE, fig.align = 'center'}
+```{r, out.width = "900px", echo=FALSE, fig.align = 'center'}
 knitr::include_graphics("images/Shiny5.3.2.png")
 ```
 ]
@@ -146,7 +150,7 @@ knitr::include_graphics("images/Shiny6.png")
 ---
 
 ##Syntax
-```{r, out.width = "800px", echo=FALSE, fig.align = 'center'}
+```{r, out.width = "1000px", echo=FALSE, fig.align = 'center'}
 knitr::include_graphics("images/Shiny7.png")
 ```
 
@@ -154,7 +158,7 @@ knitr::include_graphics("images/Shiny7.png")
 ---
 
 ##Output Objects
-```{r, out.width = "800px", echo=FALSE, fig.align = 'center'}
+```{r, out.width = "1000px", echo=FALSE, fig.align = 'center'}
 knitr::include_graphics("images/Shiny8.png")
 ```
 ---
@@ -272,7 +276,7 @@ The code has two parts:
 
 2) **app code**
 
-- remember the app templete!🤔💡: user interface; server; running the app 
+- remember the app templete!🤔💡: user interface -> server -> running the app 
 
 We can see the app in action ☀️😎 at <https://tatjana.shinyapps.io/TrafficAccidents/>
 
@@ -284,7 +288,7 @@ class: inverse, center, middle
 knitr::include_graphics("images/Cosmo_Dance.gif")
 ```
 ---
-class: center, middle
+class: center, inverse, middle
 
 ##Thanks!
 
