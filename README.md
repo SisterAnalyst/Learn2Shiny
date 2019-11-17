@@ -10,4 +10,4 @@ Check my other awesome shiny apps:
 
 - [Gapminder data 👉😎](https://tatjana.shinyapps.io/Gapminder/)
 
-- [permutation_bootstrap 🤓](https://tatjana.shinyapps.io/permutation_bootstrap/)
+- [permutation_bootstrap 🤓](https://tatjanakec.shinyapps.io/permutation_bootstrap/)
